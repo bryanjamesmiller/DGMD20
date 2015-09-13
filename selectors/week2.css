@@ -1,0 +1,168 @@
+/* HTML entities like "body" are "selectors" */
+/*  Property-value pairs within the block */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#ffc;
+}
+
+h1, h2, h3{
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight:normal;
+}
+
+/* The "article" tags are parent tags for "p" and "ul",
+ which means the "p" and "ul" tags are living inside of "article" tags.
+ Notice you need the "article" before both the "p" and the "ul" or else
+ you'd be selecting all of the ul elements instead of just the ones inside
+ of the article tags.*/
+article p,
+article ul{
+    color:red
+}
+
+/* Remember TRBL and you will stay out of TRouBLe!  Order for the margins
+shorthand */
+article{
+    margin: 1em 3em 4em 2em;
+    /* margin: auto;
+    /* This will take the extra whitespace and
+    make the margin equal on both sides.*/
+}
+
+/* The "parent" and "child" tags are IMMEDIATE descendants.  An "ancestor" may have
+ several generations of descendants.  Just one space between tags in a block of CSS
+ refers to ANY ancestor.  If you want to specify just the immediate parent, use the
+ > symbol*/
+
+p > em {
+    background-color:blue;
+    color:white;
+}
+
+strong > em {
+    background-color: green;
+    color:white;
+    font-weight:normal;
+}
+
+/* Select the absolute minimal number of tags you need to adjust as possible,
+ so be as specific as possible when trying to select a tag (choose a parent rather than
+ an ancestor). */
+
+/* Selecting Sibling tags, "adjacent" or "general" siblings */
+
+/* This select an "em" tag that has an adjacent sibling of a "img" tag.  */
+img + em {
+    border: 7px solid pink;
+    padding:3px;
+}
+
+/* Adjacent sibling of an "h1" that is where a "p" is a parent of an "img" tag */
+
+h1 + p > img{
+    border: 7px dotted orange;
+}
+
+/* "General" siblings means all of the sibling elements next to the 1st tag name that match the 2nd tag name.
+"Adjacent" siblings means just the first sibling element next to the 1st tag name that matches the 2nd tag name. */
+li ~ li {
+    text-transform: uppercase;
+}
+
+a ~ em {
+    text-transform: uppercase;
+}
+
+/* Using attributes as selectors.  Perhaps one attribute in a list is hreflang
+  Notice the square brackets. Notice it doesn't include what it's equal to.*/
+[hreflang]{
+    color:purple;
+    font-weight:bold;
+}
+
+/* All links that open in a new window should be styled the same way! */
+[target="_blank"]{
+    text-decoration:none;
+    color:brown;
+    background-color:yellow;
+}
+
+/* Adding an icon as a background image like a glyphicon */
+[href*=".pdf"]{
+    background:url(pdf.gif) no-repeat right;
+    padding-right:20px;
+}
+
+/* Psuedo-elements
+The double colon replaced the single-colon notation for pseudo-elements in CSS3. This was an attempt from W3C to distinguish between pseudo-classes and pseudo-elements.
+The single-colon syntax was used for both pseudo-classes and pseudo-elements in CSS2 and CSS1.
+For backward compatibility, the single-colon syntax is acceptable for CSS2 and CSS1 pseudo-elements.
+*/
+[target="_blank"]::after{
+    /* The after means that it is put after the element's other values */
+    content: " (opens in new window)";
+}
+
+p::first-letter{
+    font-size: 3em;
+    font-weight:bold;
+}
+
+p::first-line{
+    color:blue;
+}
+
+/* Pseudo-classes
+LiVe For Happy
+*/
+a:link{
+    color:lightblue;
+    font-weight:bold;
+}
+a:visited{
+    color:lightgreen;
+}
+a:focus{
+    /* "Focus" is for mobile */
+}
+a:hover{
+    text-decoration:none;
+}
+a:active{
+
+}
+
+nav + aside li:first-child{
+    font-weight:bold;
+    color:#cc9;
+    text-transform:lowercase;
+}
+
+nav + aside li:last-child{
+    font-style:italic;
+    color:#9cc;
+    text-transform:uppercase;
+}
+
+aside + aside li:last-child{
+    text-decoration:underline;
+    color:#9cc;
+    text-transform:capitalize;
+}
+
+/* Select all of the images that do not have an alt tag*/
+img:not([alt]){
+    border:5px solid orange;
+}
+
+/* Emmet to generate 5 ul list items with 10 words of lorem:  ul>li*5>lorem10 */
+
+/* :nth-child and :nth-of-type
+:nth-last-child(N)
+N = odd or even
+*/
+
+li:nth-of-type(odd){
+    color:red;
+}
