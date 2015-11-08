@@ -1,0 +1,58 @@
+/*
+My name:  Bryan Miller
+*/
+
+h1, h2{
+    font-family:serif;
+    font-style:italic;
+    color:blue;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+strong + em{
+    font-weight:bold;
+    color:green;
+}
+
+[target="_blank"]{
+    background:url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png) no-repeat right;
+    padding:15px;
+}
+
+[href *= ".pdf"]::after{
+    content:" (PDF)";
+}
+
+nav li:nth-of-type(odd) a{
+    color:yellow;
+    background-color: darkgrey;
+}
+
+li a[href *= ".html"]:only-child{
+    color:orange;
+    font-weight:bold;
+}
+
+table tr:nth-child(2){
+    background-color: lightgrey;
+}
+
+p + p strong{
+    border:1px solid blue;
+}
+
+aside blockquote:nth-child(3) p{
+    color:brown;
+    font-weight:bold;
+}
+
+footer p:before{
+    content:"Thank goodness part 1 is done.  ";
+}
+
+footer{
+    border-top:1px solid grey;
+}

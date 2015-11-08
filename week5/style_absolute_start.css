@@ -1,0 +1,80 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	font-family:Arial, geneva, helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 300px;
+	border: 2px solid yellow;
+}
+.placeholder {
+	border: 2px solid purple;
+	/*position:relative;*/
+	/*
+	If you pick position as relative here, it will move around the absolutely positioned elements that
+	are inside of it.  This is because absolute positioning depends on its parent element in terms
+	of where the absolute coordinates are.  In this case, both the "0, 10, 20, 30, and 40px top" and the
+	 "2px borders" are getting added up to create the jagged distance from the top of the boxes.  So if you erase
+	 the 2px puprle border, it becomes uniform separations again due to the "0, 10, 20, 30, and 40px top" properties set on the cards below.
+	*/
+}
+.card {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+#card1 {
+	background-color: red;
+	z-index:1;
+	/*
+	z-index puts layers on the screen.
+	1 is the bottom layer (underneath everything else)
+	*/
+
+	left:0px;
+	top:0; /* This ignores the top padding that had gotten stacked up on top of each other from each block's padding that was accumilating to varying degrees per box.*/
+	/*
+    The properties left:;, right, top, and bottom are only to be used with
+    absolute, relative, or fixed positioning (not static)
+    */
+}
+#card2 {
+	background-color: orange;
+	z-index:2;
+	left:10px;
+	top:10px;
+
+}
+#card3 {
+	background-color: yellow;
+	z-index:3;
+	left:20px;
+	top:20px;
+
+}
+#card4 {
+	background-color: green;
+	z-index:4;
+	left:30px;
+	top:30px;
+
+}
+#card5 {
+	background-color: blue;
+	z-index:5;
+	left:40px;
+	top:40px;
+
+}
+
+
+
+
+
+

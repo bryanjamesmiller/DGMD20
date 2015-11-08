@@ -1,0 +1,141 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffc;
+	padding: 0;
+	margin: 0;
+}
+.wrapper {
+	border: 2px solid orange;
+	width: 900px;
+	margin: 0 auto;
+	padding: 10px;
+}
+header {
+	background-color: navy;
+	color: white;
+	width: 100%;
+}
+header h1 {
+	margin: 0;
+	padding: 0.5em; 
+}
+aside {
+	font-size: 1.5em;
+	color: maroon;
+	font-weight: bold;
+}
+img {
+	border: 2px solid red;
+}
+.floatleft {
+	float: left;
+	margin: 0 1em 1em 0;
+	/* order for 4 numbers is TRouBLe */
+}
+.floatright {
+	float: right;
+	margin: 0 0 1em 1em;
+	/* order for 4 numbers is TRouBLe */
+}
+.clearfloat {
+	clear: both;
+}
+/* floats: you can combine with other styles, shown here for clarity */
+aside {
+	width: 25%;
+	float: left;
+}
+article {
+	width: 73%;
+	float: left;
+	margin-right: 2%;
+}
+
+/* if you float, you must clear. */
+.wrapper {
+	overflow: auto;
+}
+
+/* making the nav go horizontal instead of vertical without float.
+ In order to make your navigation perfectly centered, you need all 3 of the following:
+ 1.  nav a display:inline-block
+ 2.  nav ul text-align:center
+ 3.  nav a display:inline-block
+ */
+
+header h1{
+	border:2px solid red;
+	width:30%;
+	float:left;
+}
+
+nav{
+	border:2px solid yellow;
+	width:70%
+	float:left;
+	padding-top:1.5em;
+}
+
+header{
+	overflow:auto; /* This clears the floats above.  There's another header higher up in this css file as well FYI */
+	position:fixed; /* Makes the menu fixed at the top even when we scroll down just like the Tracker*/
+
+}
+
+.wrapper{
+}
+
+article{
+	margin:80px auto 0 auto;
+	overflow:auto; /* Clear floats*/
+}
+
+aside{
+	margin:80px auto 0 auto;
+	overflow:auto; /* Clear notes*/
+
+}
+
+nav ul{
+	padding:0;
+	margin:0;
+	list-style-type: none;
+	text-align:center;
+	border:1px solid blue;
+}
+
+nav li{
+	border:2px solid black;
+	display:inline; /* The "inline" means they are as wide as their content. */
+	padding-right:1.3em;
+}
+
+nav a{
+	border:2px solid purple;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover{
+	color:#ffc;
+}
+
+
+
+
+
+
+
+
+
+
+

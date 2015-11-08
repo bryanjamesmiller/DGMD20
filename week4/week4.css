@@ -1,0 +1,68 @@
+/*
+In CSS3 there are 2 ways to use the "Box Model" - Content Box (the default) or Border Box
+Both Box Models have Padding, Border and Margin.  Every HTML tag has Padding, Border, and Margin.
+Inline and Block HTML Tags.  If you put a border around it, a block element fills up a
+whole webpage, so the <body> tag is the base one.  Articles, sections, paragraphs, divs, lists
+are usually block level.  Inline content is just as wide as their content, usually <em>,
+<bold> or <span>.
+
+ The "Content Box" box model measures width only according to the content, NOT including
+ padding, border or margins.
+
+ No matter what box model you use, the height is determined by the content, and you shouldn't
+ use "height" to affect the height, as different screen sizes will affect the height.
+
+ If content overlaps because a screen shrinks, margins overlap, but paddings separate.
+
+ New to CSS3 is the Border Box model.  In Border Box, the total width includes the padding and border widths, but NOT the margin.
+ Thus, a "border box" is a box that includes the border and everything within (content, padding, and border).
+
+ https://css-tricks.com/international-box-sizing-awareness-day/
+*/
+
+/*To make the whole page as Border Box, do this:*/
+html{
+    box-sizing:border-box;
+}
+*, *:before, *:after{
+    box-sizing:inherit;
+}
+
+.p1{
+    background-color:orange;
+    padding:20px;
+    border:10px solid blue;
+    width:24%;
+    display:inline-block;
+}
+
+.p2{
+    background-color:yellow;
+    padding:5px;
+    border:2px solid green;
+    width:24%;
+    display:inline-block;
+}
+.p3{
+    background-color:lightcoral;
+    padding:50px;
+    border:30px solid brown;
+    width:24%;
+    display:inline-block;
+}
+
+.p4{
+    background-color:darkmagenta;
+    padding:20px;
+    border:15px dotted black;
+    width:24%;
+    display:inline-block;
+    color:white;
+}
+
+
+/* Using em instead of px, because em is responsive depending on how large the screen is,
+while px are an inflexible absolute size that won't change regardless of screen size.*/
+
+/* If you're not sure if you need to use margin or padding, make a border and see what happens when you
+add both some margin and pading. */

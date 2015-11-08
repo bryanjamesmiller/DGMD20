@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family:Arial, geneva, helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	}
+.container {
+    width: 300px;
+	border: 2px solid yellow;
+	}
+.placeholder {
+	border: 2px solid purple;
+	}
+.card {
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+#card1 {
+	background-color: red;
+	z-index:1;
+	/*
+	z-index puts layers on the screen.
+	1 is the bottom layer (underneath everything else)
+	*/
+
+	left:0px;
+	top: -104px; /*The 4 is from the padding.  Each card has 4 more padding	*/
+
+	/*
+    The properties left:;, right, top, and bottom are only to be used with
+    absolute, relative, or fixed positioning (not static)
+    */
+}
+#card2 {
+	background-color: orange;
+	z-index:2;
+	left:10px;
+	top:-208px;
+
+}
+#card3 {
+	background-color: yellow;
+	z-index:3;
+	left:20px;
+	top:208px;
+}
+#card4 {
+	background-color: green;
+	z-index:4;
+	left:30px;
+	top:-104px;
+
+}
+#card5 {
+	background-color: blue;
+	z-index:5;
+	left:40px;
+	top:208px;
+}
+
+
+
+
+
+

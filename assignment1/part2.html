@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        blockquote[id="danger"]{
+            color:blue;
+        }
+        #parrot strong:not(.dead){
+            color:red;
+        }
+        h3.subhead > a:hover{
+            color:yellow;
+        }
+        #sithLord.darthVader .darthMaul{
+            color:yellow;
+            text-decoration: underline;
+        }
+        a.captain.picard * strong{
+            color:brown;
+            text-decoration: underline;
+        }
+        em[title]:first-child{
+            color:yellow;
+            font-style: italic;
+            background-color: brown;
+        }
+        article p:first-letter{
+            color:red;
+            font-size:20px;
+            background-color: blue;
+        }
+        h1#list{
+            background-color: orange;
+            color:green;
+        }
+        /*
+            A space between them means the second one is in its own HTML element.
+            No space between them means they're in the same HTML element.
+        */
+        h1 #list{
+            text-decoration: underline;
+            font-size:14px;
+            color:lightcoral;
+        }
+        blockquote.service cite[title*="testimonial"]{
+            font-size:33px;
+            color:darkmagenta;
+        }
+    </style>
+</head>
+<body>
+
+<blockquote id="danger">
+    Question 1
+</blockquote>
+
+<div id="parrot">
+    <strong>
+        Question 2
+    </strong>
+</div>
+
+<h3 class="subhead">
+    <a>
+        Question 3
+    </a>
+</h3>
+
+<div id="sithLord" class="darthVader">
+    <div class="darthMaul">
+        Question 4
+    </div>
+</div>
+
+<a class="captain picard">
+    <p>
+        <strong>
+            Question 5
+        </strong>
+    </p>
+</a>
+
+<p>
+    <em title="q5">
+        Question 6
+    </em>
+</p>
+
+<article>
+    <p>
+        Question 7
+    </p>
+</article>
+
+<h1 id="list">
+    Question 8
+</h1>
+
+<h1>
+    <span id="list">
+        Question 9
+    </span>
+</h1>
+
+<blockquote class="service">
+    <cite title="persontestimonial">
+        Question 10
+    </cite>
+</blockquote>
+
+</body>
+</html>

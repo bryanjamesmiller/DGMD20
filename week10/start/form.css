@@ -1,0 +1,11 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: navy;
+}
+.container {
+	width: 27em;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 10px;
+	padding: 1em;
+}

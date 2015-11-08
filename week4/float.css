@@ -1,0 +1,85 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffc;
+	padding: 0;
+	margin: 0;
+}
+.wrapper {
+	border: 2px solid orange;
+	width:900px;
+	/* First number is margin on top and bottom,
+	second number is split left and right margins to be
+	50% of whatever is remaining each */
+	margin:0 auto;
+}
+header {
+	background-color: navy;
+	color: white;
+	width: 100%;
+}
+header h1 {
+	margin: 0;
+	padding: 0.5em; 
+}
+aside {
+	font-size: 1.5em;
+	color: maroon;
+	font-weight: bold;
+}
+
+.floatleft{
+	float:left;
+	/* TRBL */
+	margin: 0 1em 0 1em;
+}
+
+.floatright{
+	float:right;
+	margin: 0 0 1em 1em;
+}
+
+/* You have to give a width to what you want to float, or else it will be
+as wide as the whole screen and won't float at all */
+aside{
+	border: 2px solid green;
+	width:25%;
+	float:right;
+}
+
+article{
+	border:2px dotted blue;
+	width:75%;
+	float:left;
+}
+
+/* If you float, you must clear.  There are 3 ways to clear.  */
+.wrapper{
+	/* Using overflow:auto is one way to clear*/
+	overflow:auto;
+}
+
+.clearfloat{
+	/* This way of clearing requires adding an empty <div> or a <br> with this class */
+	clear:both;
+}
+
+/* border-box for whole page*/
+html{
+	box-sizing:border-box;
+}
+*, *:before, *:after{
+	box-sizing:inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

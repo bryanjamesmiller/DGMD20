@@ -1,0 +1,137 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Halant', serif;
+	font-weight: normal;
+}
+header {
+	background-color: #2C3E50;
+	color: white;
+	padding: 1em;
+}
+header h1, 
+header h2 {
+	margin: 0 0 0.5em 0;
+}
+nav {
+	border-top: 5px solid #E74C3C;
+	background-color: #3498DB;
+	padding: 1em;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	margin-right: 1em;
+}
+nav a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	padding:  0.5em 0.75em;
+}
+nav a:hover {
+	background-color: #E74C3C ;
+	border-radius: 50px;
+
+}
+aside {
+	width: 25%;
+	float: left;
+	padding: 1em;
+}
+main {
+	width: 73%;
+	float: left;
+	margin-left: 2%;
+	padding: 1em;
+}
+main p:nth-of-type(1) {
+	border: 50px solid red;
+	border-image: url(border-image.png) 10% 10% 10% 10% round;
+}
+.imgright {
+	float: right;
+	margin: 0 0 1em 1em;
+	border-radius: 100px;
+}
+blockquote {
+	padding: 1em;
+	border-radius: 10px;
+	position: relative;
+	margin: 1em 0.5em;
+}
+blockquote::after {
+	content: "";
+	background: #E74C3C url(http://lorempixel.com/400/200/sports/) no-repeat;
+	opacity: 0.3;  /* See below for another way to do opacity with colors only */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  	border-radius: 10px;
+  
+}
+blockquote p {
+	font-weight: bold;
+}
+cite {
+	font-size: 0.75em;
+	font-family: 'Halant', serif;
+}
+.temp {
+	padding: 1em;
+	border-radius: 10px;
+	background: rgba(231, 76, 60, .3);  /* Another way to do opacity - 30% opaque*/
+	width: 35%;
+	float: left;
+	margin: 0 2em 2em 0;
+	-webkit-box-shadow: 10px 10px 15px 5px rgba(102,102,102,0.51);
+	-moz-box-shadow: 10px 10px 15px 5px rgba(102,102,102,0.51);
+	box-shadow: 10px 10px 15px 5px rgba(102,102,102,0.51);
+	background: rgba(183,222,237,1);
+	background: -moz-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(183,222,237,1)), color-stop(50%, rgba(113,206,239,1)), color-stop(51%, rgba(33,180,226,1)), color-stop(100%, rgba(183,222,237,1)));
+	background: -webkit-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+	background: -o-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+	background: -ms-linear-gradient(left, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+	background: linear-gradient(to right, rgba(183,222,237,1) 0%, rgba(113,206,239,1) 50%, rgba(33,180,226,1) 51%, rgba(183,222,237,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=1 );
+	}
+.temp h2 {
+	background-color: rgba(44, 62, 80, 0.4);
+	color: white;
+	border-radius: 10px;
+}
+footer {
+	background-color: #2C3E50;
+	color: white;
+	padding: 1em;
+	text-align: center;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -158,11 +158,76 @@ img:not([alt]){
 
 /* Emmet to generate 5 ul list items with 10 words of lorem:  ul>li*5>lorem10 */
 
-/* :nth-child and :nth-of-type
+/* :nth-child and :nth-of-type and here is the difference:
+http://css-tricks.com/the-difference-between-nth-child-and-nth-of-type/
 :nth-last-child(N)
-N = odd or even
+N = odd or even, which specific #, or an + b
+
+
 */
 
-li:nth-of-type(odd){
+/* Even items */
+li:nth-of-type(even){
     color:red;
+}
+
+/* Only the 5th one */
+li:nth-child(5){
+    font-weight:bold;
+}
+
+/* Algebra: an + b */
+li:nth-child(3n + 1){
+    font-style:italic;
+    text-transform:lowercase;
+}
+
+li:nth-child(5n){
+    text-decoration:underline;
+}
+
+/* 3 down and count up */
+li:nth-child(-n+3){
+    font-size:12px;
+}
+
+ /*
+     X + Y + Z
+    ID + Class-like + HTML TAGS-like
+
+    ID beats CLASS and CLASS beats HTML TAGS.
+    Pseudo-classes and attribute selectors are categorized in this specificity order as CLASSes
+    Pseudo-elements (before, after) are categorized in this order as HTML TAGS.
+    If you have nested elements you can determine what take specificity precedence by doing the following:
+
+    ul > li > a = 0 IDs + 0 classes + 3 HTML tags
+    #thisID li.thisClass a:visited = 1 ID + 2 Class-like + 2 HTML
+
+    So the 2nd group takes precedence over the 1st because it's a bigger number.
+
+    The * symbol is the universal selector (it selects everything) it counts as 0 in the above math.
+    (anything will override *).  The pseudo-class of :not() does not count, but whatever is inside does count.
+    So if you see :not(x) the x counts.  Siblings/parents don't count, + > * ~ don't count
+
+    Of course, inline style tags <p style="color:blue"> are equal to IDs, and !important beats everything else.
+
+    standardista.com shows how the above math works and has some examples.  Specificity is not inherited.
+ */
+
+ /*
+    Some CSS styles get inherited automatically like font and colors, but some don't like borders.
+    However, you can make them inherit if you tell it to as in the below.
+    The (immediate) parent determines what gets inherited, not the parent with the highest specificity.
+ */
+
+ul{
+    border:3px dotted;
+    border-radius: 10px;
+}
+
+li{
+    border:inherit;
+    /*notice it doesn't inherit the border-radius unless you tell it to by doing
+    border-radius: inherit
+    */
 }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<h1>Pie Order Form</h1>
+		<p>Fill out the form below to place an order for a wonderful pie.</p>
+		<form action="http://formtoemail.com/user_forms.php" method="post">
+			<input type="hidden" name="user_id" value="0K20GY0RZSAP7I56AOW3">
+			<input type="hidden" name="form_id" value="1">
+			<fieldset>
+				<legend>Your contact information</legend>
+				<label for="name">Your name</label> 
+					<input type="text" id="name" autofocus name="name">
+			
+				<label for="phone">Phone number
+					<input type="tel" id="phone" placeholder="Don't forget the area code!" name="phone">
+				
+				<label for="email">Email
+					<input type="email" id="email" name="email">
+				
+				<label for="date">Requested pickup date
+					<input type="date" id="date" name="date">
+				
+			</fieldset>
+			<fieldset>
+				<legend>About your pie</legend>
+				<label for="qty">How many pies would you like?
+					<input type="number" id="qty" min="1" max="10" name="qty">
+				</label>
+				<p>What type of bottom crust?</p>
+					<label>
+						<input type="radio" name="bottom" value="classic" checked> Classic 
+					</label>
+					<label>
+						<input type="radio" name="bottom" value="gfclassic"> Gluten-Free Classic
+					</label> 
+				
+				<p>What type of top crust?</p>
+					<label>
+						<input type="radio" name="top" value="full" checked> Classic Full Crust 
+					</label>
+					<label>
+						<input type="radio" name="top" value="lattice"> Lattice
+					</label>
+					<label>
+						<input type="radio" name="top" value="gffull"> Gluten-Free Full Crust 
+					</label>
+					<label>
+						<input type="radio" name="top" value="gflattice"> Gluten-Free Lattice Crust
+					</label>
+					<label>
+						<input type="radio" name="top" value="none"> No top crust
+					</label>
+				
+				<p>What type of pie filling?<br>
+					<input name="filling" list="filling">
+					<datalist id="filling" name="filling">
+						<label>Or select from the list</label>
+						<select name="filling">
+							<option selected>Select one...</option>
+							<option value="apple">Apple</option>
+							<option value="blueberry">Blueberry</option>
+							<option value="cherry">Cherry</option>
+							<option value="berry">Mixed Berry</option>
+							<option value="peach">Peach</option>
+							<option value="pumpkin">Pumpkin</option>
+							<option value="strawberry">Strawberry</option>
+						</select>
+					</datalist>
+					<label>
+						<input id="sugarfree" type="checkbox" value="sugarfree" name="sugarfree">Make the filling sugar-free
+					</label>
+				<label>Special requests:
+					<textarea id="comments" name="comments" placeholder="Any additional instructions for us?"></textarea>
+				</label>
+				<button type="submit">Submit</button>
+			</fieldset>
+		</form>
+
+	</div>
+</body>
+</html>
+
+
+
+
+

@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="week2.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/selectors/week2.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignment3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8491379">
-              <caret line="167" column="1" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.34879407">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,6 +39,8 @@
       <list>
         <option value="Html5" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,28 +49,48 @@
       <list>
         <option value="$PROJECT_DIR$/Week2.css" />
         <option value="$PROJECT_DIR$/Week2.html" />
-        <option value="$PROJECT_DIR$/selectors/week2.css" />
-        <option value="$PROJECT_DIR$/selectors/week2.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/selectors/week2.html" />
+        <option value="$PROJECT_DIR$/assignment1/part1.html" />
+        <option value="$PROJECT_DIR$/assignment1/part1.css" />
+        <option value="$PROJECT_DIR$/assignment1/part2.html" />
+        <option value="$PROJECT_DIR$/assignment1/part2.txt" />
+        <option value="$PROJECT_DIR$/selectors/week2.css" />
+        <option value="$PROJECT_DIR$/assignment1/part3.txt" />
+        <option value="$PROJECT_DIR$/week4/week4.html" />
+        <option value="$PROJECT_DIR$/week4/week4.css" />
+        <option value="$PROJECT_DIR$/week4/float.html" />
+        <option value="$PROJECT_DIR$/week4/float.css" />
+        <option value="$PROJECT_DIR$/week5/style_absolute_start.css" />
+        <option value="$PROJECT_DIR$/week5/style_relative_start.css" />
+        <option value="$PROJECT_DIR$/week5/columns.css" />
+        <option value="$PROJECT_DIR$/week5/fixed-inline.css" />
+        <option value="$PROJECT_DIR$/week5/columns-done.css" />
+        <option value="$PROJECT_DIR$/week7/week7-end.html" />
+        <option value="$PROJECT_DIR$/week7/week7-end.css" />
+        <option value="$PROJECT_DIR$/week8/harvard-resources.html" />
+        <option value="$PROJECT_DIR$/week9/fruit-finish.html" />
+        <option value="$PROJECT_DIR$/assignment3/dominion.html" />
+        <option value="$PROJECT_DIR$/assignment3/federation.html" />
+        <option value="$PROJECT_DIR$/assignment3/index.html" />
+        <option value="$PROJECT_DIR$/assignment3/custom.js" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="NamedScopeManager">
-    <order />
   </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="368" />
-    <option name="y" value="29" />
-    <option name="width" value="866" />
-    <option name="height" value="780" />
+    <option name="x" value="741" />
+    <option name="y" value="70" />
+    <option name="width" value="619" />
+    <option name="height" value="653" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -113,8 +135,12 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -132,15 +158,59 @@
               <option name="myItemId" value="DGMD20" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selectors" />
+              <option name="myItemId" value="DGMD20" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DGMD20" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="start" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DGMD20" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DGMD20" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DGMD20" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DGMD20" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assignment3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,21 +218,39 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="settings.editor.splitter.proportion" value="0.22159624" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/DGMD20/selectors/week2.css" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/xampp/htdocs/DGMD20/assignment3/index.html&#10;fixed&#9;FILE&#9;file://C:/xampp/htdocs/DGMD20/week5/fixed-inline.html&#10;columns&#9;FILE&#9;file://C:/xampp/htdocs/DGMD20/week5/columns.css&#10;column&#9;FILE&#9;file://C:/xampp/htdocs/DGMD20/week5/columns.html&#10;inline&#9;FILE&#9;file://C:/xampp/htdocs/DGMD20/week5/fixed-inline.css&#10;inlin&#9;FILE&#9;file://C:/xampp/htdocs/DGMD20/week5/fixed-inline.html&#10;demo&#9;FILE&#9;file://C:/xampp/htdocs/DGMD20/week5/demo_relative_start.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sandbox/crafty-records" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.week2.html">
-    <configuration default="false" name="Week2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DGMD20/Week2.html">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DGMD20\assignment3\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DGMD20\assignment3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.harvard-resources.html">
+    <configuration default="false" name="demo_absolute_start.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DGMD20/week5/demo_absolute_start.html">
       <method />
     </configuration>
-    <configuration default="false" name="week2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DGMD20/selectors/week2.html">
+    <configuration default="false" name="demo_relative_start.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DGMD20/week5/demo_relative_start.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="fixed-inline.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DGMD20/week5/fixed-inline.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="columns.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DGMD20/week5/columns.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="harvard-resources.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DGMD20/week8/harvard-resources.html">
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -208,14 +296,38 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Week2.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.week2.html" />
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.demo_absolute_start.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.demo_relative_start.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.fixed-inline.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.columns.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.harvard-resources.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.week2.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Week2.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.harvard-resources.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.columns.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.fixed-inline.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.demo_relative_start.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.demo_absolute_start.html" />
       </list>
     </recent_temporary>
   </component>
@@ -233,27 +345,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="368" y="29" width="866" height="780" extended-state="0" />
+    <frame x="741" y="70" width="619" height="653" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26352942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29268292" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26699835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29612404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -272,11 +384,73 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/week6/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/fixed-inline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selectors/week2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="204" column="0" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/float.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/float.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/week4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selectors/week2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="92" column="38" selection-start-line="92" selection-start-column="38" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selectors/week2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selectors/week2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/selectors/week2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="162" column="14" selection-start-line="162" selection-start-column="14" selection-end-line="162" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -284,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -292,30 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selectors/week2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.915625">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1442110177198" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -323,14 +472,445 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9367816">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selectors/week2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2360515">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/part1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47619048">
+          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/part1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32790223">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/part2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.96753246">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/part3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment1/part2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9111111">
+          <caret line="58" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week3start/day3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16393442">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/week4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85775864">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/float.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.712963">
+          <caret line="14" column="96" selection-start-line="14" selection-start-column="96" selection-end-line="14" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/week4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6995448">
+          <caret line="64" column="39" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week4/float.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.072674416">
+          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week3start/day3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/demo_absolute_start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16691957">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/style_absolute_start.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86503065">
+          <caret line="75" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/demo_relative_start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.96304345">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/style_relative_start.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6666667">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/fixed-inline.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8979592">
+          <caret line="18" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/fixed-inline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93442625">
+          <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/columns-done.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40983605">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/columns-done.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323398">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/columns.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selectors/week2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8491379">
-          <caret line="167" column="1" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.5657143">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week5/columns.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6885246">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week6/finalform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week6/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week7/week7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week7/week7-end-image-opacity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13114753">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week7/week7-end.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week8/harvard-resources.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8015873">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <marker date="1446497163715" expanded="true" signature="21:4099" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="28:110" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="118:3327" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="127:223" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="229:1165" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="238:1158" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="1175:2809" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="1375:1830" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="1414:1817" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="2818:3319" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="2827:3116" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="3130:3246" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="3426:4091" placeholder="..." />
+            <marker date="1446497163715" expanded="true" signature="3461:4049" placeholder="{...}" />
+            <marker date="1446497163715" expanded="true" signature="3484:3593" placeholder="{&quot;color&quot;: 'green'...}" />
+            <marker date="1446497163715" expanded="true" signature="3649:3694" placeholder="{&quot;font-style&quot;: 'italic'...}" />
+            <marker date="1446497163715" expanded="true" signature="3750:3852" placeholder="{&quot;font-size&quot;: '3em'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week8/harvard-resources-assignment-answers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0476191">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1446329189790" expanded="true" signature="21:3976" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="28:106" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="114:3968" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="125:223" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="231:1153" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="240:1144" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="1165:2773" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="1380:1817" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="1415:1804" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="2784:3295" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="2795:3086" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="3102:3218" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="3415:3960" placeholder="..." />
+            <marker date="1446329189790" expanded="true" signature="3449:3935" placeholder="{...}" />
+            <marker date="1446329189790" expanded="true" signature="3470:3562" placeholder="{&quot;color&quot;: &quot;green&quot;...}" />
+            <marker date="1446329189790" expanded="true" signature="3613:3650" placeholder="{&quot;fontStyle&quot;: &quot;italic&quot;...}" />
+            <marker date="1446329189790" expanded="true" signature="3724:3807" placeholder="{&quot;fontSize&quot;: &quot;3em&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week8/harvard-resources-finish.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1446329189810" expanded="true" signature="21:3796" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="28:106" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="114:3788" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="125:223" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="231:1153" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="240:1144" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="1165:2623" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="1337:1774" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="1372:1761" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="2634:3145" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="2645:2936" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="2952:3068" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="3226:3780" placeholder="..." />
+            <marker date="1446329189810" expanded="true" signature="3260:3754" placeholder="{...}" />
+            <marker date="1446329189810" expanded="true" signature="3433:3541" placeholder="{&quot;border&quot;: '1px solid red'...}" />
+            <marker date="1446329189810" expanded="true" signature="3576:3642" placeholder="{&quot;color&quot;: 'white'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week9/fruit-start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1446932467765" expanded="true" signature="21:2040" placeholder="..." />
+            <marker date="1446932467765" expanded="true" signature="28:167" placeholder="..." />
+            <marker date="1446932467765" expanded="true" signature="175:2032" placeholder="..." />
+            <marker date="1446932467765" expanded="true" signature="200:1935" placeholder="..." />
+            <marker date="1446932467765" expanded="true" signature="229:595" placeholder="..." />
+            <marker date="1446932467765" expanded="true" signature="621:1826" placeholder="..." />
+            <marker date="1446932467765" expanded="true" signature="654:893" placeholder="..." />
+            <marker date="1446932467765" expanded="true" signature="926:1157" placeholder="..." />
+            <marker date="1446932467765" expanded="true" signature="1190:1497" placeholder="..." />
+            <marker date="1446932467765" expanded="true" signature="1530:1811" placeholder="..." />
+            <marker date="1446932467765" expanded="true" signature="1855:1927" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week9/fruit-finish.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4063492">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1446932467734" expanded="true" signature="21:2259" placeholder="..." />
+            <marker date="1446932467734" expanded="true" signature="28:145" placeholder="..." />
+            <marker date="1446932467734" expanded="true" signature="153:2251" placeholder="..." />
+            <marker date="1446932467734" expanded="true" signature="178:2119" placeholder="..." />
+            <marker date="1446932467734" expanded="true" signature="207:624" placeholder="..." />
+            <marker date="1446932467734" expanded="true" signature="650:2010" placeholder="..." />
+            <marker date="1446932467734" expanded="true" signature="683:952" placeholder="..." />
+            <marker date="1446932467734" expanded="true" signature="985:1232" placeholder="..." />
+            <marker date="1446932467734" expanded="true" signature="1265:1627" placeholder="..." />
+            <marker date="1446932467734" expanded="true" signature="1660:1995" placeholder="..." />
+            <marker date="1446932467734" expanded="true" signature="2039:2111" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3/federation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48979592">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding>
+            <marker date="1446942849633" expanded="true" signature="31:1411" placeholder="..." />
+            <marker date="1446942849633" expanded="true" signature="38:97" placeholder="..." />
+            <marker date="1446942849633" expanded="true" signature="114:1403" placeholder="..." />
+            <marker date="1446942849633" expanded="true" signature="123:1214" placeholder="..." />
+            <marker date="1446942849633" expanded="true" signature="133:365" placeholder="..." />
+            <marker date="1446942849633" expanded="true" signature="146:354" placeholder="..." />
+            <marker date="1446942849633" expanded="true" signature="417:752" placeholder="..." />
+            <marker date="1446942849633" expanded="true" signature="472:738" placeholder="..." />
+            <marker date="1446942849633" expanded="true" signature="776:909" placeholder="..." />
+            <marker date="1446942849633" expanded="true" signature="933:1057" placeholder="..." />
+            <marker date="1446942849633" expanded="true" signature="1082:1204" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3/dominion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.384127">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <marker date="1446942849650" expanded="true" signature="31:1179" placeholder="..." />
+            <marker date="1446942849650" expanded="true" signature="38:97" placeholder="..." />
+            <marker date="1446942849650" expanded="true" signature="114:1171" placeholder="..." />
+            <marker date="1446942849650" expanded="true" signature="123:951" placeholder="..." />
+            <marker date="1446942849650" expanded="true" signature="129:339" placeholder="..." />
+            <marker date="1446942849650" expanded="true" signature="138:332" placeholder="..." />
+            <marker date="1446942849650" expanded="true" signature="374:819" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week10/finish/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1446949574748" expanded="true" signature="21:2215" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="28:136" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="143:2207" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="171:2061" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="186:289" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="302:2050" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="332:477" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="507:625" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="646:1371" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="743:870" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="906:1019" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="1056:1183" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="1223:1349" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="1404:1816" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="1537:1763" placeholder="..." />
+            <marker date="1446949574748" expanded="true" signature="1848:1974" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15492958">
+          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
+          <folding>
+            <marker date="1446959395259" expanded="false" signature="0:37" placeholder="/** Created by B on 11/7/2015. ...*/" />
+            <marker date="1446959395259" expanded="true" signature="67:4363" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="88:152" placeholder="{&quot;display&quot;: 'block'...}" />
+            <marker date="1446959395259" expanded="true" signature="253:440" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="290:393" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="336:381" placeholder="{&quot;color&quot;: 'red'...}" />
+            <marker date="1446959395259" expanded="true" signature="399:434" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="541:728" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="578:681" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="624:669" placeholder="{&quot;color&quot;: 'red'...}" />
+            <marker date="1446959395259" expanded="true" signature="687:722" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="829:1019" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="869:972" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="915:960" placeholder="{&quot;color&quot;: 'red'...}" />
+            <marker date="1446959395259" expanded="true" signature="978:1013" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="1049:1239" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="1089:1192" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="1135:1180" placeholder="{&quot;color&quot;: 'red'...}" />
+            <marker date="1446959395259" expanded="true" signature="1198:1233" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="1269:1459" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="1309:1412" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="1355:1400" placeholder="{&quot;color&quot;: 'red'...}" />
+            <marker date="1446959395259" expanded="true" signature="1418:1453" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="1495:2018" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="1535:1670" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="1613:1658" placeholder="{&quot;color&quot;: 'red'...}" />
+            <marker date="1446959395259" expanded="true" signature="1706:1841" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="1784:1829" placeholder="{&quot;color&quot;: 'red'...}" />
+            <marker date="1446959395259" expanded="true" signature="1877:2012" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="1955:2000" placeholder="{&quot;color&quot;: 'red'...}" />
+            <marker date="1446959395259" expanded="true" signature="2038:2104" placeholder="{&quot;display&quot;: 'inline'...}" />
+            <marker date="1446959395259" expanded="true" signature="2125:2193" placeholder="{&quot;background-color&quot;: 'grey'...}" />
+            <marker date="1446959395259" expanded="true" signature="2236:2270" placeholder="{&quot;display&quot;: 'inline'...}" />
+            <marker date="1446959395259" expanded="true" signature="2412:2508" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="2451:2500" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="2532:2628" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="2571:2620" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="2688:3640" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="2713:2914" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="2774:2869" placeholder="{&quot;color&quot;: 'white'...}" />
+            <marker date="1446959395259" expanded="true" signature="2920:3118" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="2980:3073" placeholder="{&quot;color&quot;: 'black'...}" />
+            <marker date="1446959395259" expanded="true" signature="3188:3241" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="3324:3373" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="3538:3590" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="3709:4019" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="3777:3854" placeholder="{&quot;color&quot;: 'red'...}" />
+            <marker date="1446959395259" expanded="true" signature="4032:4324" placeholder="{...}" />
+            <marker date="1446959395259" expanded="true" signature="4079:4158" placeholder="{&quot;color&quot;: 'black'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34879407">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

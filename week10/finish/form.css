@@ -1,0 +1,72 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: navy;
+}
+.container {
+	width: 27em;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 10px;
+	padding: 1em;
+}
+.element {
+	margin: 2em 0;
+}
+label,
+legend {
+	font-weight: bold;
+}
+fieldset label {
+	font-weight: normal;
+	display: block;
+}
+input, 
+textarea {
+	width: 25rem;
+	border-radius: 5px;
+	border: 1px solid green;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+}
+fieldset input {
+	width: auto;
+}
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+select {
+	font-size: 1em;
+	width: 25rem;
+}
+button {
+	background-color: green;
+	color: white;
+	border: 1px solid green;
+	border-radius: 10px;
+	font-size: 1em;
+	width: 26rem;
+}
+button:hover {
+	background-color: darkgreen;
+}
+.error {
+	border-color: red;
+	color: red;
+}
+.msg {
+	color: purple;
+	font-weight: bold;
+	padding: 1em 0;
+}
+
+
+
+
+
+
+
+
+

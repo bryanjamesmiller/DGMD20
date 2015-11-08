@@ -1,0 +1,59 @@
+Written by:  Bryan Miller
+
+<blockquote id="danger">
+    Question 1
+</blockquote>
+
+<div id="parrot">
+    <strong>
+        Question 2
+    </strong>
+</div>
+
+<h3 class="subhead">
+    <a>
+        Question 3
+    </a>
+</h3>
+
+<div id="sithLord" class="darthVader">
+    <div class="darthMaul">
+        Question 4
+    </div>
+</div>
+
+<a class="captain picard">
+    <p>
+        <strong>
+            Question 5
+        </strong>
+    </p>
+</a>
+
+<p>
+    <em title="q5">
+        Question 6
+    </em>
+</p>
+
+<article>
+    <p>
+        Question 7
+    </p>
+</article>
+
+<h1 id="list">
+    Question 8
+</h1>
+
+<h1>
+    <span id="list">
+        Question 9
+    </span>
+</h1>
+
+<blockquote class="service">
+    <cite title="persontestimonial">
+        Question 10
+    </cite>
+</blockquote>
