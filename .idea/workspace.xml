@@ -25,8 +25,8 @@
       <file leaf-file-name="federation.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment3/federation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5809524">
-              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.20952381">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,9 +38,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Html5" />
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -72,8 +72,9 @@
         <option value="$PROJECT_DIR$/week9/fruit-finish.html" />
         <option value="$PROJECT_DIR$/assignment3/custom.js" />
         <option value="$PROJECT_DIR$/assignment3/homework_links.txt" />
-        <option value="$PROJECT_DIR$/assignment3/dominion.html" />
+        <option value="$PROJECT_DIR$/assignment3/custom.css" />
         <option value="$PROJECT_DIR$/assignment3/index.html" />
+        <option value="$PROJECT_DIR$/assignment3/dominion.html" />
         <option value="$PROJECT_DIR$/assignment3/federation.html" />
       </list>
     </option>
@@ -385,13 +386,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week5/fixed-inline.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selectors/week2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -865,6 +859,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.034920637">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <marker date="1447103192836" expanded="true" signature="4:26" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignment3/homework_links.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2670713">
@@ -873,45 +877,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3/dominion.html">
+    <entry file="file://$PROJECT_DIR$/assignment3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5857143">
-          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.17460318">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <marker date="1447102966217" expanded="true" signature="31:1324" placeholder="..." />
-            <marker date="1447102966217" expanded="true" signature="38:97" placeholder="..." />
-            <marker date="1447102966217" expanded="true" signature="114:1316" placeholder="..." />
-            <marker date="1447102966217" expanded="true" signature="123:404" placeholder="..." />
-            <marker date="1447102966217" expanded="true" signature="133:367" placeholder="..." />
-            <marker date="1447102966217" expanded="true" signature="146:356" placeholder="..." />
-            <marker date="1447102966217" expanded="true" signature="564:1012" placeholder="..." />
+            <marker date="1447103264194" expanded="true" signature="31:1271" placeholder="..." />
+            <marker date="1447103264194" expanded="true" signature="38:159" placeholder="..." />
+            <marker date="1447103264194" expanded="true" signature="166:1263" placeholder="..." />
+            <marker date="1447103264194" expanded="true" signature="175:528" placeholder="..." />
+            <marker date="1447103264194" expanded="true" signature="185:422" placeholder="..." />
+            <marker date="1447103264194" expanded="true" signature="198:411" placeholder="..." />
+            <marker date="1447103264194" expanded="true" signature="629:1132" placeholder="..." />
+            <marker date="1447103264194" expanded="true" signature="651:772" placeholder="..." />
+            <marker date="1447103264194" expanded="true" signature="794:916" placeholder="..." />
+            <marker date="1447103264194" expanded="true" signature="938:1067" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3/index.html">
+    <entry file="file://$PROJECT_DIR$/assignment3/dominion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42698413">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.20952381">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <marker date="1447102966120" expanded="true" signature="31:1203" placeholder="..." />
-            <marker date="1447102966120" expanded="true" signature="38:97" placeholder="..." />
-            <marker date="1447102966120" expanded="true" signature="104:1195" placeholder="..." />
-            <marker date="1447102966120" expanded="true" signature="113:466" placeholder="..." />
-            <marker date="1447102966120" expanded="true" signature="123:360" placeholder="..." />
-            <marker date="1447102966120" expanded="true" signature="136:349" placeholder="..." />
-            <marker date="1447102966120" expanded="true" signature="567:1064" placeholder="..." />
-            <marker date="1447102966120" expanded="true" signature="589:708" placeholder="..." />
-            <marker date="1447102966120" expanded="true" signature="730:850" placeholder="..." />
-            <marker date="1447102966120" expanded="true" signature="872:999" placeholder="..." />
+            <marker date="1447103264223" expanded="true" signature="31:1387" placeholder="..." />
+            <marker date="1447103264223" expanded="true" signature="38:160" placeholder="..." />
+            <marker date="1447103264223" expanded="true" signature="177:1379" placeholder="..." />
+            <marker date="1447103264223" expanded="true" signature="186:467" placeholder="..." />
+            <marker date="1447103264223" expanded="true" signature="196:430" placeholder="..." />
+            <marker date="1447103264223" expanded="true" signature="209:419" placeholder="..." />
+            <marker date="1447103264223" expanded="true" signature="627:1075" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment3/federation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5809524">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.20952381">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
