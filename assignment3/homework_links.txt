@@ -12,7 +12,7 @@ Located at this HTML URL: http://dgmd20.grat.xyz/assignment3/federation.html
 The line numbers in the JavaScript file where this code is found are: 120-162
 
 My site’s hover effect is if you hover over the picture of Weyoun (the alien with blue eyes),
-it will display 2 other characters below and have the text color change to red and the background color
+it will display 2 other characters below and have the even h2 tags' text color change to red and the background color
 changed to black. Hover out to have the page restore itself to its previous look/behavior when the mouse rolls
 off the element - note that it restores itself by sliding, so it make take a second to return to the previous look
 or a few seconds if you constantly hover in and out a few times as it takes a few seconds each time you hover in
@@ -24,7 +24,7 @@ My if/else choice is I have 6 if/else statements that help with the "focusout" a
 Located at this HTML URL: http://dgmd20.grat.xyz/assignment3/index.html
 The line numbers in the JavaScript file where this code is found are: 15-73
 
-My effect that requires filtering the results is that only the even elements within the #dom tag
+My effect that requires filtering the results is that only the even elements within the #h2 tag
 are affected by the hover action
 Located at this HTML URL: http://dgmd20.grat.xyz/assignment3/dominion.html
 The line numbers in the JavaScript file where this code is found are: 168, 180

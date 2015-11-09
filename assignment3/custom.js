@@ -165,7 +165,7 @@ $(document).ready(function(){
         // Mouse in
 
         test2 = true;
-        $('#doms:even').css({
+        $('h2:even').css({
             'color':'red',
             'background-color':'black'
         }); // End #id css on hover mouse in
@@ -177,7 +177,7 @@ $(document).ready(function(){
     }, function() {
         // Mouse out
 
-        $('#doms:even').css({
+        $('h2:even').css({
             'color':'black',
             'background-color':'white'
         }); // End #id css on hover mouse out
