@@ -3,10 +3,9 @@
  */
 
 $(document).ready(function(){
-    $('input').css({
-        'display':'block',
-        'margin-bottom':'2em'
-    });
+    $('input').addClass(
+        "first"
+    );
 
     var er1 = $('#er1');
     er1.hide();
@@ -14,9 +13,9 @@ $(document).ready(function(){
     email.focusout(function(){
         if(email.val().length == 0){
             er1.show();
-            er1.css({
-                'color':'red'
-            });
+            er1.addClass(
+                'warning'
+            );
         } else {
             er1.hide();
         }
@@ -28,9 +27,9 @@ $(document).ready(function(){
     pswd1.focusout(function(){
         if(pswd1.val().length == 0){
             er2.show();
-            er2.css({
-                'color':'red'
-            });
+            er2.addClass(
+                'warning'
+            );
         } else {
             er2.hide();
         }
@@ -42,9 +41,9 @@ $(document).ready(function(){
     pswd2.focusout(function(){
         if(pswd2.val() != pswd1.val()){
             er3.show();
-            er3.css({
-                'color':'red'
-            });
+            er3.addClass(
+                'warning'
+            );
         } else {
             er3.hide();
         }
@@ -53,9 +52,9 @@ $(document).ready(function(){
     pswd2.keyup(function(){
         if(pswd2.val() != pswd1.val()){
             er3.show();
-            er3.css({
-                'color':'red'
-            });
+            er3.addClass(
+                'warning'
+            );
         } else {
             er3.hide();
         }
@@ -64,9 +63,9 @@ $(document).ready(function(){
     pswd1.keyup(function(){
         if(pswd2.val() != pswd1.val()){
             er3.show();
-            er3.css({
-                'color':'red'
-            });
+            er3.addClass(
+                'warning'
+            );
         } else {
             er3.hide();
         }
@@ -76,40 +75,38 @@ $(document).ready(function(){
         if(pswd2.val() != pswd1.val()){
             e.preventDefault();
             er3.show();
-            er3.css({
-                'color':'red'
-            });
+            er3.addClass(
+                'warning'
+            );
         }
         if(pswd1.val().length == 0){
             e.preventDefault();
             er2.show();
-            er2.css({
-                'color':'red'
-            });
+            er2.addClass(
+                'warning'
+            );
         }
         if(email.val().length == 0){
             e.preventDefault();
             er1.show();
-            er1.css({
-                'color':'red'
-            });
+            er1.addClass(
+                'warning'
+            );
         }
     });
 
-    $('li').css({
-        'display':'inline',
-        'margin-right':'30px',
-    });
+    $('li').addClass(
+        'line_items'
+    ); // I know this is a little redundant but just practicing
 
-    $('nav').css({
-        'background-color':'grey',
-        'padding':'20px',
-    }); // End figure css
+    $('nav').addClass(
+        'nav_items'
+    ); // I know this is a little redundant but just practicing
 
 
     $('figure').css({
         'display':'inline'
-    }); // End figure css
+    }); // I know this is a little redundant but just practicing
 
 
     $('#img4, #img5, #img6, #img7, #img9').hide();
@@ -133,16 +130,14 @@ $(document).ready(function(){
     $('#img2').click(function(){
         if(test_three) {
             test_three = false;
-            $('#feds').css({
-                'color': 'white',
-                'background-color': '#3399FF'
-            }); // End #id css on hover mouse in
+            $('#feds').addClass(
+                'federation_blue_white'
+            ); // End #id css on hover mouse in
         } else {
             test_three = true;
-            $('#feds').css({
-                'color': 'black',
-                'background-color': 'white'
-            }); // End #id css on hover mouse in
+            $('#feds').removeClass(
+                'federation_blue_white'
+            ); // End #id css on hover mouse in
         }
         test = true;
 
@@ -165,10 +160,9 @@ $(document).ready(function(){
         // Mouse in
 
         test2 = true;
-        $('h2:even').css({
-            'color':'red',
-            'background-color':'black'
-        }); // End #id css on hover mouse in
+        $('h2:even').addClass(
+            'dominion'
+        ); // End #id css on hover mouse in
 
         $('#img7').slideToggle(500);
         $("#img8").animate({opacity: "0.0"});
@@ -177,10 +171,9 @@ $(document).ready(function(){
     }, function() {
         // Mouse out
 
-        $('h2:even').css({
-            'color':'black',
-            'background-color':'white'
-        }); // End #id css on hover mouse out
+        $('h2:even').removeClass(
+            'dominion'
+        ); // End #id css on hover mouse out
 
         $('#img7').slideToggle(500);
         $("#img8").animate({opacity: "1.0"});

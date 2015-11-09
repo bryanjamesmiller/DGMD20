@@ -1,3 +1,33 @@
 span{
     display:block;
 }
+
+.first{
+    display:block;
+    margin-bottom:2em;
+}
+
+.warning{
+    color:red;
+}
+
+.dominion{
+    color:red;
+    background-color:black;
+}
+
+.federation_blue_white{
+    color:white;
+    background-color: #3399FF;
+}
+
+.line_items{
+    display:inline;
+    margin-right:30px;
+}
+
+.nav_items{
+    background-color:grey;
+    padding:20px;
+}
+
