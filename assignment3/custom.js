@@ -165,26 +165,26 @@ $(document).ready(function(){
         // Mouse in
 
         test2 = true;
-        $('#doms').css({
+        $('#doms:even').css({
             'color':'red',
             'background-color':'black'
         }); // End #id css on hover mouse in
 
-        $('#img7').slideToggle(3000);
+        $('#img7').slideToggle(500);
         $("#img8").animate({opacity: "0.0"});
-        $('#img9').slideToggle(3000);
+        $('#img9').slideToggle(500);
 
     }, function() {
         // Mouse out
 
-        $('#doms').css({
+        $('#doms:even').css({
             'color':'black',
             'background-color':'white'
         }); // End #id css on hover mouse out
 
-        $('#img7').slideToggle(3000);
+        $('#img7').slideToggle(500);
         $("#img8").animate({opacity: "1.0"});
-        $('#img9').slideToggle(3000);
+        $('#img9').slideToggle(500);
 
     }); // End #img1 hover event function
 

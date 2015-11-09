@@ -1,0 +1,49 @@
+Part 1
+
+My two jQuery-driven interactive elements in the form include:  Three "focusout" events for
+the email field and the two password fields requiring the forms to not be left empty.
+Located at this HTML URL: http://dgmd20.grat.xyz/assignment3/index.html
+The line numbers in the JavaScript file where this code is found are: 14-51
+
+My site’s click effect is when you click the picture of Captain Benjamin Sisko, images of his
+officers switch from hide() to show() and start slideToggle, slideUp/slideDown, and slideDown/slideUp,
+and also the css toggles the text color to white and the background color to Federation blue.
+Located at this HTML URL: http://dgmd20.grat.xyz/assignment3/federation.html
+The line numbers in the JavaScript file where this code is found are: 120-162
+
+My site’s hover effect is if you hover over the picture of Weyoun (the alien with blue eyes),
+it will display 2 other characters below and have the text color change to red and the background color
+changed to black. Hover out to have the page restore itself to its previous look/behavior when the mouse rolls
+off the element - note that it restores itself by sliding, so it make take a second to return to the previous look
+or a few seconds if you constantly hover in and out a few times as it takes a few seconds each time you hover in
+or out to return.
+Located at this HTML URL: http://dgmd20.grat.xyz/assignment3/dominion.html
+The line numbers in the JavaScript file where this code is found are: 164-189
+
+My if/else choice is I have 6 if/else statements that help with the "focusout" and "keyup" events
+Located at this HTML URL: http://dgmd20.grat.xyz/assignment3/index.html
+The line numbers in the JavaScript file where this code is found are: 15-73
+
+My effect that requires filtering the results is that only the even elements within the #dom tag
+are affected by the hover action
+Located at this HTML URL: http://dgmd20.grat.xyz/assignment3/dominion.html
+The line numbers in the JavaScript file where this code is found are: 168, 180
+
+Two more effects of my choice are I included a couple of "keyup" events that
+check to see if the passwords match and a "click" event
+if the submit button is clicked before the forms are filled out.
+Located at this HTML URL: http://dgmd20.grat.xyz/assignment3/index.html
+The line numbers in the JavaScript file where this code is found are: 53-97
+
+
+Part 2
+
+The canvas element on my site occurs at this HTML URL: ____
+A button that, when clicked, clears the entire canvas or part of the canvas
+The line numbers in the JavaScript file where this code is found are: ______
+At least two different elements drawn on the canvas when a button is clicked
+The line numbers in the JavaScript file where this code is found are: _____
+Chaining methods
+The line numbers in the JavaScript file where this code is found are: ______
+A form element on the page that accepts some kind of user input
+The line numbers in the JavaScript file where this code is found are: ______
