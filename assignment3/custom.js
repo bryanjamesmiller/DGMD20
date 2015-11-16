@@ -183,6 +183,7 @@ $(document).ready(function(){
 
 
     $('#btn3').click(function(){
+        var input = $('#in4').val();
         $('#cv1').drawEllipse({
             layer:true,
             name:'vul',
@@ -199,9 +200,18 @@ $(document).ready(function(){
             strokeWidth: 5,
             x: 150, y: 350,
             width: 175, height: 200
+        }).drawText({
+            layer:true,
+            fillStyle:'blue',
+            StrokeStyle:'green',
+            strokeWidth:2,
+            x:350,
+            y:150,
+            fontSize:'28px',
+            fontFamily:'Verdana, sans-serif',
+            text:'Welcome, ' + input + ', to planets Earth and Vulcan!'
         });
 
-        for(var i = 0; i < 5; i++) {
             $('#cv1').animateLayer('earth', {
                 x: 520,
                 y: 150
@@ -227,7 +237,6 @@ $(document).ready(function(){
                 x: 150,
                 y: 350
             }, 2500);
-        }
     }); // End click btn1 to draw circles
 
     $('#btn2').click(function(){
