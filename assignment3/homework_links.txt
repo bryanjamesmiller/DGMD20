@@ -2,6 +2,9 @@ Part 1
 
 My two jQuery-driven interactive elements in the form include:  Three "focusout" events for
 the email field and the two password fields requiring the forms to not be left empty.
+To see these in action, click on the "Enter Email" text input box and then click out
+with it still blank, and a message will appear.  Click on the "Enter Password" text input
+box and click out with it still blank to see another one.
 Located at this HTML URL: http://dgmd20.grat.xyz/assignment3/index.html
 The line numbers in the JavaScript file where this code is found are: 14-51
 
