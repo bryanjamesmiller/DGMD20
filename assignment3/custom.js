@@ -183,7 +183,7 @@ $(document).ready(function(){
 
 
     $('#btn3').click(function(){
-        var input = $('#in4').val();
+        var input = $('#in4').val().toUpperCase();
         $('#cv1').drawEllipse({
             layer:true,
             name:'vul',
@@ -203,12 +203,12 @@ $(document).ready(function(){
         }).drawText({
             layer:true,
             fillStyle:'blue',
-            StrokeStyle:'green',
+            strokeStyle:'green',
             strokeWidth:2,
-            x:350,
-            y:150,
+            x:350, y:250, radius:180,
             fontSize:'28px',
             fontFamily:'Verdana, sans-serif',
+            rotate: 90, maxWidth: 300, lineHeight: 2.5,
             text:'Welcome, ' + input + ', to planets Earth and Vulcan!'
         });
 
