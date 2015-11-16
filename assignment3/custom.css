@@ -31,3 +31,14 @@ span{
     padding:20px;
 }
 
+canvas{
+    border:2px dotted blue;
+}
+
+.buttons{
+    float:left;
+}
+
+.clear{
+    clear:both;
+}

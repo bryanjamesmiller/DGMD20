@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>All About the Canvas Tag</title>
+    <style>
+    	canvas {
+    		border: 1px dotted black;
+    	}
+        div {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meme Generator</h1>
+      <div>
+        <label for="image">Select an image: </label>
+        <select id="image">
+            <option checked>Please select one:</option>
+            <option value="duck">Kitten and duck</option>
+            <option value="heart">Puppy heart</option>
+            <option value="puppy">German Shepherd Puppy</option>
+            <option value="grumpy">Grumpy Cat</option>
+        </select>
+        <br>
+        <label for="line1">Top line of text:</label>
+        <input type="text" id="line1">
+        <br>
+        <label for="line2">Bottom line of text:</label>
+        <input type="text" id="line2">
+        <br>
+        <button id="create">Create image</button>
+      </div>
+
+	  <canvas width="730" height="520" id="canvas1"></canvas>
+
+
+<!-- javascript -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/jcanvas.min.js"></script>
+    <script src="js/meme.js"></script>
+</body>
+</html>

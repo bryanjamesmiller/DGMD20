@@ -181,4 +181,58 @@ $(document).ready(function(){
 
     }); // End #img1 hover event function
 
+
+    $('#btn3').click(function(){
+        $('#cv1').drawEllipse({
+            layer:true,
+            name:'vul',
+            fillStyle: '#A85842',
+            strokeStyle: '#46616C',
+            strokeWidth: 5,
+            x: 150, y: 110,
+            width: 175, height: 200
+        }).drawEllipse({
+            layer:true,
+            name:'earth',
+            fillStyle: '#46616C',
+            strokeStyle: '#A85842',
+            strokeWidth: 5,
+            x: 150, y: 350,
+            width: 175, height: 200
+        });
+
+        for(var i = 0; i < 5; i++) {
+            $('#cv1').animateLayer('earth', {
+                x: 520,
+                y: 150
+            }, 2500).animateLayer('vul', {
+                x: 120,
+                y: 150
+            }, 2500).animateLayer('earth', {
+                x: 150,
+                y: 110
+            }, 2500).animateLayer('vul', {
+                x: 150,
+                y: 350
+            }, 2500).animateLayer('vul', {
+                x: 520,
+                y: 150
+            }, 2500).animateLayer('earth', {
+                x: 120,
+                y: 150
+            }, 2500).animateLayer('vul', {
+                x: 150,
+                y: 110
+            }, 2500).animateLayer('earth', {
+                x: 150,
+                y: 350
+            }, 2500);
+        }
+    }); // End click btn1 to draw circles
+
+    $('#btn2').click(function(){
+        $('#cv1').clearCanvas();
+        $('#cv1').removeLayers();
+    });
+
 }); // End document ready

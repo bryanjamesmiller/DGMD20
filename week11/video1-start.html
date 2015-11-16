@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>All About the Canvas Tag</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <style>
+        canvas{
+            /* You can only set the height and width by inline styles,
+            or you will have weird stretching issues if you try to use css!*/
+            border:1px dotted blue;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>
+        Here is my JCanvas
+    </h1>
+    <div class="col-xs-12">
+        <canvas width="300" height="400" class="canvas" id="cv1"></canvas>
+    </div>
+    <div class="col-xs-12">
+        <button id="btn1" class="btn btn-primary">Click to Draw Planet Vulcan and Planet Earth</button>
+        <button id="btn2" class="btn btn-primary">Clear Canvas</button>
+    </div>
+    <canvas width="300" height="400" class="canvas" id="cv2"></canvas>
+    <canvas width="300" height="400" class="canvas" id="cv3"></canvas>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/jcanvas.min.js"></script>
+<script src="js/myjs.js"></script>
+
+</body>
+</html>

@@ -38,12 +38,16 @@ The line numbers in the JavaScript file where this code is found are: 53-97
 
 Part 2
 
-The canvas element on my site occurs at this HTML URL: ____
+The canvas element on my site occurs at this HTML URL: http://dgmd20.grat.xyz/assignment3/index.html
+
 A button that, when clicked, clears the entire canvas or part of the canvas
-The line numbers in the JavaScript file where this code is found are: ______
+The line numbers in the JavaScript file where this code is found are: 233-236
+
 At least two different elements drawn on the canvas when a button is clicked
-The line numbers in the JavaScript file where this code is found are: _____
+The line numbers in the JavaScript file where this code is found are: 185-202
+
 Chaining methods
-The line numbers in the JavaScript file where this code is found are: ______
+The line numbers in the JavaScript file where this code is found are: 185-202 and also 205-229
+
 A form element on the page that accepts some kind of user input
-The line numbers in the JavaScript file where this code is found are: ______
+The line numbers in the JavaScript file where this code is found are: 40-42
