@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title></title>
+    <meta charset=utf-8>
+    <title>SelectBoxIt demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://gregfranko.com/jquery.selectBoxIt.js/css/jquery.selectBoxIt.css" />
 </head>
 <body>
-<h1>Done!</h1>
-<div id="app">
-    <button type="submit" @click="updateCount">
-        The number of clicks is: {{ count }}
-    </button>
+<div class="container">
+<h1>Test</h1>
+<p>This includes both Javascript UI and Bootstrap</p>
+<select name="test">
+    <option value="SelectBoxIt is:">SelectBoxIt is:</option>
+    <option value="a jQuery Plugin">a jQuery Plugin</option>
+    <option value="a Select Box Replacement">a Select Box Replacement</option>
+    <option value="a Stateful UI Widget">a Stateful UI Widget</option>
+</select>
 </div>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.4/vue.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script src="http://gregfranko.com/jquery.selectBoxIt.js/js/jquery.selectBoxIt.min.js"></script>
 <script>
-    var data = {
-        count:0
-    };
+    $(function() {
 
-    new Vue({
-        el:'#app',
-        methods:{
-            updateCount:function(){
-                this.count =+ 1;
-            }
-        }
+        var selectBox = $("select").selectBoxIt();
+
     });
 </script>
 </body>
 </html>
+      

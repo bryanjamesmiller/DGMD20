@@ -1,0 +1,36 @@
+/* totally acceptable to do the same width max-width css hack on our assignment.  */
+img{
+	width:100%;  /* For Internet Explorer */
+	max-width:100%;
+}
+
+.ui-grid-c img{
+	width:100%;  /* For Internet Explorer */
+	max-width:100%;
+}
+
+#oranges .ui-block-a{
+	width:74%;
+	margin-right:1%;
+}
+
+#oranges .ui-block-b{
+	width:25%;
+}
+
+@media all and (max-width: 720px){
+	#home .ui-grid-a .ui-block-a,
+	#home .ui-grid-a .ui-block-b,
+	#oranges .ui-block-a,
+	#oranges .ui-block-b{
+		width:100%;
+	}
+
+	#home .ui-grid-c .ui-block-a,
+	#home .ui-grid-c .ui-block-b,
+	#home .ui-grid-c .ui-block-c,
+	#home .ui-grid-c .ui-block-d{
+		width:49%;
+		margin-right:1%
+	}
+}

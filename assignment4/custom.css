@@ -1,0 +1,17 @@
+/* Prevents the images from overflowing onto each other */
+img{
+    width:100%;  /* For Internet Explorer */
+    max-width:100%;
+}
+
+/*
+    Allows the images to stack on top of each other when the
+    web page is smaller than 720 px wide
+*/
+@media all and (max-width: 720px) {
+    .ui-grid-b .ui-block-a,
+    .ui-grid-b .ui-block-b,
+    .ui-grid-b .ui-block-c {
+        width: 100%;
+    }
+}
