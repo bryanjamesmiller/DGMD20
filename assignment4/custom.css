@@ -5,6 +5,16 @@ img{
 }
 
 /*
+    Allows three images in one row without overlap
+*/
+.ui-grid-b .ui-block-a,
+.ui-grid-b .ui-block-b,
+.ui-grid-b .ui-block-c {
+    margin:2px;
+    width: 32%;
+}
+
+/*
     Allows the images to stack on top of each other when the
     web page is smaller than 720 px wide
 */
@@ -14,4 +24,31 @@ img{
     .ui-grid-b .ui-block-c {
         width: 100%;
     }
+}
+
+
+
+h2{
+    height:50px;
+    font-size:1.25em;
+    margin-right:30px;
+}
+
+/*
+    Resizes the text for smaller screen widths to prevent the captions from running into each other
+    and adjusts the height to remove some extra whitespace with the smaller text
+*/
+@media all and (max-width: 1000px) {
+    h2{
+        font-size:1em;
+        height:30px;
+    }
+}
+
+footer{
+    padding:50px;
+}
+
+#icon_size{
+    font-size: 75%;
 }

@@ -1,0 +1,18 @@
+My week 12-13 jQuery Mobile assignment is located at this/these URL(s):
+http://dgmd20.grat.xyz/assignment4/index.html
+http://dgmd20.grat.xyz/assignment4/index.html#age3
+http://dgmd20.grat.xyz/assignment4/index.html#age4
+
+Grid system is located on this/these page(s):
+http://dgmd20.grat.xyz/assignment4/index.html#age3
+http://dgmd20.grat.xyz/assignment4/index.html#age4
+
+Button and/or icon is located here:
+I used a "refresh" icon-button in the footer that looks like a "copyright" symbol
+
+My two widgets are ___ and ___ and they are located on these pages: ___
+My custom theme is applied on this page ___ line number ___
+The form is located here: ____ and the modifications I used are ___ and ___ HTML line numbers ____
+The jQuery Mobile events I used on my site include: ____ They are located here: ____
+
+jQuery UI instructions will follow shortly.
