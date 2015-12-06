@@ -11,7 +11,8 @@ Button and/or icon is located here:
 I used a "refresh" icon-button in the footer that looks like a "copyright" symbol and another one on the submit button
 for the form here:  http://dgmd20.grat.xyz/assignment4/index.html and on html line 64.
 
-My two widgets are ___ and ___ and they are located on these pages: ___
+My two widgets are the "slider widget" and the "flipswitch widget" and they are located on
+these pages: http://dgmd20.grat.xyz/assignment4/index.html and on html lines 56-62.
 
 My custom theme is applied on this page index.html line numbers 8-10, 14, etc. (data-theme="c").
 
