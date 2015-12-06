@@ -45,12 +45,23 @@
             <label for="radio_custom-4">Looks Exhausting!</label>
         </fieldset>
         <label for="custom_select">Pick as many as you like:</label>
-        <select multiple="multiple" data-native-menu="false" name="custom_select" id="custom_select">
-                <option value="">Choices:</option>
-                <option value="small">One</option>
-                <option value="medium">Two</option>
-                <option value="large">Three</option>
+        <select multiple="multiple" data-native-menu="false" name="custom_select" id="custom_select" data-mini="true">
+                <option value="" aria-disabled="true">Adrian also likes:</option>
+                <option value="kites">Flying kites</option>
+                <option value="swing">Swinging on a swingset</option>
+                <option value="run">Running around superfast</option>
+                <option value="boating">Boating at the lake</option>
+                <option value="santa">Hanging out with Santa Claus</option>
         </select>
+        <label for="slider_filler">How many days do you suppose the slip-n-slide got used this summer?</label>
+        <input type="range" name="slider_filler" id="slider_filler" value="30" min="0" max="100" data-highlight="true" />
+        <label for="switcher">Do you have a child or children?</label>
+        <select name="switcher" id="switcher" data-role="slider">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+        </select>
+        <label for="submit_button">Enter your results:</label>
+        <button type="submit" id="submit_button" class="ui-btn ui-corner-all">Submit Survey</button>
     </main>
     <footer data-role="footer">
         Adrian is my daughter and asked me to make a webpage for her.&nbsp; Ta-da!&nbsp; Images and videos <span data-icon="refresh" class="ui-btn ui-shadow ui-corner-all ui-icon-refresh ui-btn-icon-notext" id="icon_size"></span> copyright 2015 Tiffany and Bryan Miller.

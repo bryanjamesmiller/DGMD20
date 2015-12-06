@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f0dba9-e7d9-4473-b578-382a1d7507d7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assignment4/test.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/BryanMillerWorksheet.zip" afterPath="$PROJECT_DIR$/assignment1/BryanMillerWorksheet.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment4/homework_links.txt" afterPath="$PROJECT_DIR$/assignment4/homework_links.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment4/custom.css" afterPath="$PROJECT_DIR$/assignment4/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment4/index.html" afterPath="$PROJECT_DIR$/assignment4/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/week13/form-start.html" afterPath="$PROJECT_DIR$/week13/form-start.html" />
     </list>
     <ignored path="DGMD20.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment4/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64128256">
-              <caret line="48" column="40" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.5923077">
+              <caret line="58" column="64" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -44,6 +42,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment4/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.137932">
+              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -102,10 +110,10 @@
         <option value="$PROJECT_DIR$/week12/start/css/custom.css" />
         <option value="$PROJECT_DIR$/week12/start/index.html" />
         <option value="$PROJECT_DIR$/week12/finish/index.html" />
-        <option value="$PROJECT_DIR$/assignment4/custom.css" />
         <option value="$PROJECT_DIR$/assignment4/test.html" />
         <option value="$PROJECT_DIR$/assignment4/homework_links.txt" />
         <option value="$PROJECT_DIR$/week13/form-start.html" />
+        <option value="$PROJECT_DIR$/assignment4/custom.css" />
         <option value="$PROJECT_DIR$/assignment4/index.html" />
       </list>
     </option>
@@ -120,10 +128,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="488" />
-    <option name="y" value="8" />
-    <option name="width" value="849" />
-    <option name="height" value="723" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -372,7 +380,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="488" y="8" width="849" height="723" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16086435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -729,14 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment4/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment3/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -761,10 +761,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.137932">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assignment4/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64128256">
-          <caret line="48" column="40" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.5923077">
+          <caret line="58" column="64" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
           <folding />
         </state>
       </provider>

@@ -52,3 +52,7 @@ footer{
 #icon_size{
     font-size: 75%;
 }
+
+.ui-mobile label, .ui-controlgroup-label{
+     margin-top:20px;
+}
