@@ -2,107 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f0dba9-e7d9-4473-b578-382a1d7507d7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/action-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/alert-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/alert-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-d-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-d-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-d-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-d-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-d-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-d-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-u-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-u-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-u-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-u-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-u-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/arrow-u-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/audio-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/audio-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/back-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/back-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/bars-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/bars-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/bullets-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/bullets-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/calendar-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/calendar-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/camera-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/camera-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/carat-d-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/carat-d-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/carat-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/carat-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/carat-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/carat-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/carat-u-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/carat-u-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/check-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/check-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/clock-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/clock-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/cloud-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/cloud-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/comment-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/comment-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/delete-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/delete-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/edit-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/edit-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/eye-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/eye-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/forbidden-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/forbidden-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/forward-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/forward-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/gear-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/gear-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/grid-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/grid-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/heart-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/heart-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/home-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/home-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/info-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/info-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/location-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/location-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/lock-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/lock-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/mail-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/mail-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/minus-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/minus-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/navigation-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/navigation-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/phone-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/phone-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/plus-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/plus-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/power-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/power-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/recycle-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/recycle-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/refresh-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/refresh-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/search-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/search-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/shop-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/shop-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/star-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/star-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/tag-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/tag-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/user-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/user-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/video-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�images/icons-png/video-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/week13/themeroller/finish/themes�jen.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/BryanMillerWorksheet.zip" afterPath="$PROJECT_DIR$/assignment1/BryanMillerWorksheet.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment4/homework_links.txt" afterPath="$PROJECT_DIR$/assignment4/homework_links.txt" />
     </list>
     <ignored path="DGMD20.iws" />
@@ -128,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment4/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5813953">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state vertical-scroll-proportion="-3.137931">
+              <caret line="63" column="88" selection-start-line="63" selection-start-column="84" selection-end-line="63" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -145,8 +46,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homework_links.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homework_links.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment4/homework_links.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="86" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events-finish.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week13/events-finish.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -868,14 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week13/events-finish.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.677643">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week13/events-start.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -894,13 +797,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment4/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5813953">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state vertical-scroll-proportion="-3.137931">
+          <caret line="63" column="88" selection-start-line="63" selection-start-column="84" selection-end-line="63" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment4/homework_links.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="86" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week13/events-finish.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
