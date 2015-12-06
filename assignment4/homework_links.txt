@@ -14,8 +14,13 @@ My two widgets are ___ and ___ and they are located on these pages: ___
 
 My custom theme is applied on this page index.html line numbers 8-10, 14, etc. (data-theme="c").
 
-The form is located here: ____ and the modifications I used are ___ and ___ HTML line numbers ____
-The jQuery Mobile events I used on my site include: ____ They are located here: ____
+The form is located here: http://dgmd20.grat.xyz/assignment4/index.html
+and the modifications I used are "horizontal/miniaturized radio buttons" and
+ "multiple-select dropdown also miniaturized" in HTML line numbers 34-55.
+
+The jQuery Mobile events I used on my site include: swipeleft and swiperight on the pictures
+ to maximize or minimize them.  They are located here: http://dgmd20.grat.xyz/assignment4/index.html#age3 and
+ http://dgmd20.grat.xyz/assignment4/index.html#age4, and see javascript file "swipe.js" for the jquery mobile code.
 
 My week 14 jQuery UI assignment is located at this/these URL(s):
 http://dgmd20.grat.xyz/assignment4/index.html
