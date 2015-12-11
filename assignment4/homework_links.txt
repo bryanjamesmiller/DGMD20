@@ -30,6 +30,6 @@ http://dgmd20.grat.xyz/assignment4/index.html#age3
 http://dgmd20.grat.xyz/assignment4/index.html#age4
 
 My custom theme is applied on this page ___ line number(s) ___
-My interaction is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
+My interaction is "draggable" applied on this page http://dgmd20.grat.xyz/assignment4/jqueryui/jqueryui.html line number(s) 16, 20, 24, 42-44 (HTML and JS please!)
 My widget is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
 My effect is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
