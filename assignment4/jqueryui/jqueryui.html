@@ -42,17 +42,22 @@
         .start{
             background: #ADD8E6;
         }
+        .my_heading{
+            color:blue;
+            font-size:2em;
+            font-weight:bold;
+        }
     </style>
 </head>
 <body>
-<section data-theme="c" data-role="page" id="age1">
-    <main data-role="main" class="ui-content">
-        <div class="ui-grid-b ui-body ui-body-a">
+<section id="age1">
+    <main class="ui-content">
+        <div>
             <div class="toggler">
                 <div id="effect" class="start ui-widget-content ui-corner-all">
-                    <h1 class="ui-widget-header ui-corner-all">Adrian at Age 4-ish</h1>
+                    <h1 class="ui-widget-header ui-corner-all my_heading">Adrian at Age 4-ish</h1>
                     <p>
-                        And here is the "toggle" effect with the "animate" feature.
+                        And here is the "toggle" effect with the "animate" feature combined with the "toggleClass" feature.
                     </p>
                 </div>
             </div>
@@ -86,9 +91,8 @@
             </div>
         </div>
     </main>
-    <footer data-role="footer">
+    <footer>
         Adrian is my daughter and asked me to make a webpage for her.&nbsp; Ta-da!&nbsp; Images and videos
-        <span data-icon="refresh" class="ui-btn ui-shadow ui-corner-all ui-icon-refresh ui-btn-icon-notext" id="icon_size"></span>
         copyright 2015 Tiffany and Bryan Miller.
     </footer>
 </section>
@@ -131,13 +135,13 @@
                         backgroundColor: "purple",
                         color: "#fff",
                         width: 700
-                    }, 1000 );
+                    }, 1000 ).toggleClass("my_heading", 1000);
                 } else {
                     $( "#effect" ).animate({
                         backgroundColor: "#ADD8E6",
                         color: "#000",
                         width: 400
-                    }, 1000 );
+                    }, 1000).toggleClass("my_heading", 1000);
                 }
                 state = !state;
             });

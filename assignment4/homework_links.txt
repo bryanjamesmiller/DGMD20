@@ -27,13 +27,14 @@ The jQuery Mobile events I used on my site include: swipeleft and swiperight on 
 My week 14 jQuery UI assignment is located at this/these URL(s):
 http://dgmd20.grat.xyz/assignment4/jqueryui/jqueryui.html
 
-My custom theme is applied on this page ___ line number(s) ___
+My custom theme is applied on this page http://dgmd20.grat.xyz/assignment4/jqueryui/jqueryui.html line number(s) 6, 100-101
 
-My interaction is "draggable" applied on this page http://dgmd20.grat.xyz/assignment4/jqueryui/jqueryui.html line number(s) 50, 54, 58, 74-85,
+My interaction is "draggable" applied on this page http://dgmd20.grat.xyz/assignment4/jqueryui/jqueryui.html line number(s) 79, 83, 87, 104-115,
 and the two features it combines are the "constrain movement" feature with the "cursor style" feature.
 
-My widget is the "slider" applied on this page http://dgmd20.grat.xyz/assignment4/jqueryui/jqueryui.html line number(s) 44-48, 86-99,
+My widget is the "slider" applied on this page http://dgmd20.grat.xyz/assignment4/jqueryui/jqueryui.html line number(s) 73-77, 116-129,
 and the two features it combines are the "Snap to increments" feature and the "colorpicker"'s background-color of the slider changing
 as the slider moves one way or the other.
 
-My effect is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
+My effect is "toggle" and "toggleClass" combined applied
+on this page http://dgmd20.grat.xyz/assignment4/jqueryui/jqueryui.html line number(s) 45-49, 58, 130-147
