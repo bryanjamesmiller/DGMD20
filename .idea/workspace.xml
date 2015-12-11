@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f0dba9-e7d9-4473-b578-382a1d7507d7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment3/jqueryui/4yrs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment3/jqueryui/4yrsb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment3/jqueryui/4yrsc.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assignment3/jqueryui/jqueryui.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assignment3/jqueryui/4yrs.jpg" afterPath="$PROJECT_DIR$/assignment4/jqueryui/4yrs.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assignment3/jqueryui/4yrsb.jpg" afterPath="$PROJECT_DIR$/assignment4/jqueryui/4yrsb.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assignment3/jqueryui/4yrsc.jpg" afterPath="$PROJECT_DIR$/assignment4/jqueryui/4yrsc.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/BryanMillerWorksheet.zip" afterPath="$PROJECT_DIR$/assignment1/BryanMillerWorksheet.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment3/jqueryui/jqueryui.html" afterPath="$PROJECT_DIR$/assignment3/jqueryui/jqueryui.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html" afterPath="$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html" />
     </list>
     <ignored path="DGMD20.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,21 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jqueryui.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jqueryui.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.172414">
-              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jqueryui.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignment3/jqueryui/jqueryui.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9057692">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.42307693">
+              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -159,8 +150,8 @@
         <option value="$PROJECT_DIR$/assignment4/homework_links.txt" />
         <option value="$PROJECT_DIR$/assignment4/jqueryui.html" />
         <option value="$PROJECT_DIR$/assignment4/index.html" />
-        <option value="$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html" />
         <option value="$PROJECT_DIR$/assignment3/jqueryui/jqueryui.html" />
+        <option value="$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html" />
       </list>
     </option>
   </component>
@@ -305,7 +296,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assignment3" />
+              <option name="myItemId" value="assignment4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqueryui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,10 +315,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assignment3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jqueryui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,6 +344,7 @@
       <recent name="C:\xampp\htdocs\DGMD20\week12\start" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\DGMD20\assignment4" />
       <recent name="C:\xampp\htdocs\DGMD20\assignment4\jqueryui" />
       <recent name="C:\xampp\htdocs\DGMD20" />
       <recent name="C:\xampp\htdocs\DGMD20\assignment3\img" />
@@ -853,16 +845,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.172414">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assignment3/jqueryui/jqueryui.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9057692">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.42307693">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
           <folding />
         </state>
       </provider>
