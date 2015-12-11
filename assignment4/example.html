@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery UI Slider - Colorpicker</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <style>
+       #blue {
+            float: left;
+            clear: left;
+            width: 300px;
+            margin: 15px;
+        }
+
+        #blue .ui-slider-range { background: #729fcf; }
+        #blue .ui-slider-handle { border-color: #729fcf; }
+    </style>
+    <script>
+
+        $(function() {
+            $( "#blue" ).slider({
+                orientation: "horizontal",
+                range: "min",
+                value:1,
+                min: 1,
+                max: 3,
+                step: 1,
+                slide: function( event, ui ) {
+                    $( "#pic_num" ).val( ui.value );
+                }
+            });
+
+            $( "#blue" ).slider( "value", 60 );
+        });
+    </script>
+</head>
+<body class="ui-widget-content" style="border:0;">
+
+<p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:4px;">
+    <span class="ui-icon ui-icon-pencil" style="float:left; margin:-2px 5px 0 0;"></span>
+    Simple Colorpicker
+</p>
+
+<div id="blue"></div>
+
+
+</body>
+</html>

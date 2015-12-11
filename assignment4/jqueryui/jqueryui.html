@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/start/jquery-ui.css" />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -15,6 +16,17 @@
             height:2000px;
             width:3000px;
         }
+        #my_slider {
+            float: left;
+            clear: left;
+            width: 300px;
+        }
+        #my_slider .ui-slider-range{
+            background: lightblue;
+        }
+        #my_slider .ui-slider-handle {
+            border-color: lightblue;
+        }
     </style>
 </head>
 <body>
@@ -22,11 +34,18 @@
     <main data-role="main" class="ui-content">
         <div class="ui-grid-b ui-body ui-body-a">
             <h1>Adrian at Age 4-ish</h1>
-            <p>Drag the pictures around with your mouse!  Notice how the "draggable" function is working
+            <p>
+                Drag the pictures around with your mouse!  Notice how the "draggable" function is working
                 together with the "cursor style/cursor positioning" feature so it gets dragged by the middle of the picture
                 regardless of where you click on it.  Also, note that you can only drag the pictures around within the container
                 with the black border: this is
-                because I have combined the "constrain movement" feature with the "cursor style" feature.</p>
+                because I have combined the "constrain movement" feature with the "cursor style" feature.
+            </p>
+            <p>
+                <label for="pic_num">My favorite picture below is #:</label>
+                <input type="text" id="pic_num" readonly style="border:0; color:blue; font-weight:bold;">
+            </p>
+            <div id="my_slider"></div>
             <div id="container">
                 <div class="ui-block-a draggable ui-widget-content" id="draggable">
                     <h2>Boating on the 4th of July</h2>
@@ -64,6 +83,20 @@
             cursor: "move", cursorAt: { top: 300, left: 200 },
             containment: "#container"
         });
+        $( "#my_slider" ).slider({
+            orientation: "horizontal",
+            range:"min",
+            value:1,
+            min: 1,
+            max: 3,
+            step: 1,
+            slide: function( event, ui ) {
+                $( "#pic_num" ).val( ui.value );
+            }
+        });
+        $( "#my_slider" ).slider( "value", 2 );
+
+        $( "#pic_num" ).val( $( "#my_slider" ).slider( "value" ) );
     });
 </script>
 </body>
