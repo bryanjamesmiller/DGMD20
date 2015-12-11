@@ -4,7 +4,6 @@
     <list default="true" id="93f0dba9-e7d9-4473-b578-382a1d7507d7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment1/BryanMillerWorksheet.zip" afterPath="$PROJECT_DIR$/assignment1/BryanMillerWorksheet.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment4/homework_links.txt" afterPath="$PROJECT_DIR$/assignment4/homework_links.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html" afterPath="$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html" />
     </list>
     <ignored path="DGMD20.iws" />
@@ -37,21 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homework_links.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homework_links.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assignment4/homework_links.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7260726">
+            <state vertical-scroll-proportion="0.0">
               <caret line="32" column="141" selection-start-line="32" selection-start-column="141" selection-end-line="32" selection-end-column="141" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jqueryui.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jqueryui.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.488372">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33846155">
+              <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -117,8 +116,8 @@
         <option value="$PROJECT_DIR$/assignment4/jqueryui.html" />
         <option value="$PROJECT_DIR$/assignment4/index.html" />
         <option value="$PROJECT_DIR$/assignment3/jqueryui/jqueryui.html" />
-        <option value="$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html" />
         <option value="$PROJECT_DIR$/assignment4/homework_links.txt" />
+        <option value="$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html" />
       </list>
     </option>
   </component>
@@ -802,18 +801,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html">
+    <entry file="file://$PROJECT_DIR$/assignment4/homework_links.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.488372">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="141" selection-start-line="32" selection-start-column="141" selection-end-line="32" selection-end-column="141" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment4/homework_links.txt">
+    <entry file="file://$PROJECT_DIR$/assignment4/jqueryui/jqueryui.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7260726">
-          <caret line="32" column="141" selection-start-line="32" selection-start-column="141" selection-end-line="32" selection-end-column="141" />
+        <state vertical-scroll-proportion="0.33846155">
+          <caret line="8" column="90" selection-start-line="8" selection-start-column="90" selection-end-line="8" selection-end-column="90" />
           <folding />
         </state>
       </provider>
