@@ -8,40 +8,62 @@
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <style>
+        #container{
+            margin-top:100px;
+            border:1px solid black;
+            height:2000px;
+            width:3000px;
+        }
+    </style>
 </head>
 <body>
 <section data-theme="a" data-role="page" id="age1">
     <main data-role="main" class="ui-content">
         <div class="ui-grid-b ui-body ui-body-a">
             <h1>Adrian at Age 4-ish</h1>
-            <p>Drag the pictures around with your mouse!</p>
-            <div class="ui-block-a" id="draggable">
-                <h2>Boating on the 4th of July</h2>
-                <img src="4yrs.jpg">
-            </div>
-            <div class="ui-block-b" id="draggable2">
-                <h2>Riding Behind the Boat</h2>
-                <img src="4yrsb.jpg">
-            </div>
-            <div class="ui-block-c" id="draggable3">
-                <h2>Taking a Break from the Boat</h2>
-                <img src="4yrsc.jpg">
+            <p>Drag the pictures around with your mouse!  Notice how the "draggable" function is working
+                together with the "cursor style/cursor positioning" feature so it gets dragged by the middle of the picture
+                regardless of where you click on it.  Also, note that you can only drag the pictures around within the container
+                with the black border: this is
+                because I have combined the "constrain movement" feature with the "cursor style" feature.</p>
+            <div id="container">
+                <div class="ui-block-a draggable ui-widget-content" id="draggable">
+                    <h2>Boating on the 4th of July</h2>
+                    <img src="4yrs.jpg">
+                </div>
+                <div class="ui-block-b draggable ui-widget-content" id="draggable2">
+                    <h2>Riding Behind the Boat</h2>
+                    <img src="4yrsb.jpg">
+                </div>
+                <div class="ui-block-c draggable ui-widget-content" id="draggable3">
+                    <h2>Taking a Break from the Boat</h2>
+                    <img src="4yrsc.jpg">
+                </div>
             </div>
         </div>
     </main>
     <footer data-role="footer">
-        Adrian is my daughter and asked me to make a webpage for her.&nbsp; Ta-da!&nbsp; Images and videos <span data-icon="refresh" class="ui-btn ui-shadow ui-corner-all ui-icon-refresh ui-btn-icon-notext" id="icon_size"></span> copyright 2015 Tiffany and Bryan Miller.
+        Adrian is my daughter and asked me to make a webpage for her.&nbsp; Ta-da!&nbsp; Images and videos
+        <span data-icon="refresh" class="ui-btn ui-shadow ui-corner-all ui-icon-refresh ui-btn-icon-notext" id="icon_size"></span>
+        copyright 2015 Tiffany and Bryan Miller.
     </footer>
 </section>
 
-
 <script>
     $(function() {
-
-        $( "#draggable" ).draggable();
-        $( "#draggable2" ).draggable();
-        $( "#draggable3" ).draggable();
-
+        $( "#draggable" ).draggable({
+            cursor: "move", cursorAt: { top: 300, left: 200 },
+            containment: "#container"
+        });
+        $( "#draggable2" ).draggable({
+            cursor: "move", cursorAt: { top: 300, left: 200 },
+            containment: "#container"
+        });
+        $( "#draggable3" ).draggable({
+            cursor: "move", cursorAt: { top: 300, left: 200 },
+            containment: "#container"
+        });
     });
 </script>
 </body>

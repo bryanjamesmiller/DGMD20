@@ -25,11 +25,13 @@ The jQuery Mobile events I used on my site include: swipeleft and swiperight on 
  http://dgmd20.grat.xyz/assignment4/index.html#age4, and see javascript file "swipe.js" for the jquery mobile code.
 
 My week 14 jQuery UI assignment is located at this/these URL(s):
-http://dgmd20.grat.xyz/assignment4/index.html
-http://dgmd20.grat.xyz/assignment4/index.html#age3
-http://dgmd20.grat.xyz/assignment4/index.html#age4
+http://dgmd20.grat.xyz/assignment4/jqueryui/jqueryui.html
 
 My custom theme is applied on this page ___ line number(s) ___
-My interaction is "draggable" applied on this page http://dgmd20.grat.xyz/assignment4/jqueryui/jqueryui.html line number(s) 16, 20, 24, 42-44 (HTML and JS please!)
+
+My interaction is "draggable" applied on this page http://dgmd20.grat.xyz/assignment4/jqueryui/jqueryui.html line number(s) 31, 35, 39, 54-67,
+and the two features it combines are the "constrain movement" feature with the "cursor style" feature.
+
 My widget is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
+
 My effect is ____ applied on this page ____ line number(s) ____ (HTML and JS please!)
